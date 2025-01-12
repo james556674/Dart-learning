@@ -15,7 +15,7 @@ void main() {
   // 新增多個元素到 List
   fruits.addAll(["orange", "pear"]);
   print("Print List addAll: $fruits");
-// 
+
   // 查找元素在 List 中的索引位置
   final indexOfBanana = fruits.indexOf("banana");
   print("Print List indexOf banana: $indexOfBanana");
@@ -85,18 +85,16 @@ void main() {
   print("contains email value ${user.containsValue("john@example.com")}");
 
 
-  // 遍歷方法示範
-  // forEach
-
+  // 遍歷List
   const fruitsForMapTest = ["apple", "banana", "orange"];
 
-  // ==== for loop ====
+  // for loop
   print("========== for loop ==========");
   for (var i = 0; i < fruitsForMapTest.length; i++) {
     print("Print List forEach: ${fruitsForMapTest[i]}");
   }
 
-  // ==== forEach ====
+  // forEach
   print("========== forEach ==========");
   fruitsForMapTest.forEach((element) {
     print("Print List forEach: $element");
