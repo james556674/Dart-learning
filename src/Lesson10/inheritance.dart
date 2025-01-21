@@ -76,6 +76,8 @@ class Web extends Person {
   // 子類自己擴展的方法
   run() {
     print("${this.name} is running");
+    // 調用父類的方法
+    super.work();
   }
 
   // 子類覆寫父類的方法
