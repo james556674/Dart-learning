@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get URL Parameters</title>
+</head>
+<body>
+
+  <h1>Get URL Parameters</h1>
+  
+  <p id="result"></p>
+
+  <script>
+    // Get URL parameters
+    const urlParams = new URLSearchParams(window.location.search);
+    
+    // Extract individual parameters
+    const name = urlParams.get('name'); // "JohnDoe"
+    const age = urlParams.get('age');   // "25"
+    
+    // Display the values
+    document.getElementById('result').textContent = `Name: ${name}, Age: ${age}`;
+  </script>
+
+</body>
+</html>

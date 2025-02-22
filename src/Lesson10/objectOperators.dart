@@ -5,6 +5,8 @@
 // 3. is 類型檢查
 // 4. .. 串聯運算符
 
+
+
 class Person {
   String? name;
   int? age;
@@ -16,11 +18,12 @@ class Person {
   }
 }
 
+
 // 1. ?  條件運算條件
 // void main() {
 //   Person person = Person("John", 20);
 //   person.printInfo();
-//   print(MathUtil?.add(1, 2));
+//   print(a.age);
 // }
 
 // 2. is 類型檢查

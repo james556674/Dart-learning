@@ -1,0 +1,7 @@
+name: learning
+description: A new Flutter project.
+
+dependencies:
+  date_time_format: ^2.0.1
+environment:
+  sdk: '^3.5.0'

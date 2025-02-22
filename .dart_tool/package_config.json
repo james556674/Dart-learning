@@ -1,0 +1,23 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "date_time_format",
+      "rootUri": "file:///C:/Users/james/AppData/Local/Pub/Cache/hosted/pub.dev/date_time_format-2.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "learning",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
+    }
+  ],
+  "generated": "2025-01-26T12:19:27.931610Z",
+  "generator": "pub",
+  "generatorVersion": "3.5.4",
+  "flutterRoot": "file:///C:/dev/flutter",
+  "flutterVersion": "3.24.5",
+  "pubCache": "file:///C:/Users/james/AppData/Local/Pub/Cache"
+}
